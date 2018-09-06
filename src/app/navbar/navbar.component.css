@@ -1,0 +1,19 @@
+.navbar {
+  padding: 0; }
+
+.nav-link {
+  color: white !important;
+  font-size: 0.75em; }
+
+.navbar-left-1 {
+  background-color: #ED1B23; }
+
+.navbar-left-2 {
+  background: #ed1b23;
+  background: linear-gradient(90deg, #ed1b23 94%, #da1920 100%); }
+
+.navbar-right {
+  background-color: #ED1B23; }
+
+.fa-facebook-f {
+  color: white; }
