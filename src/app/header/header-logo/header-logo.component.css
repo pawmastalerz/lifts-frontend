@@ -1,6 +1,19 @@
 .header-logo {
-    position: absolute;
-    top: 15%;
-    left: 15%;
-    width: 20%;
+  position: relative;
+}
+
+.header-logo-image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20%;
+  left: 10%
+}
+
+@media only screen and (max-width: 768px) {
+  .header-logo-image {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
