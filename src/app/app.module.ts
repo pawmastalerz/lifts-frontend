@@ -8,6 +8,7 @@ import { HeaderContactComponent } from './header/header-contact/header-contact.c
 import { HeaderLogoComponent } from './header/header-logo/header-logo.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { CarouselItem1Component } from './carousel/carousel-item1/carousel-item1.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     HeaderContactComponent,
     HeaderLogoComponent,
     NavbarComponent,
-    CarouselComponent
+    CarouselComponent,
+    CarouselItem1Component
   ],
   imports: [
     BrowserModule,
