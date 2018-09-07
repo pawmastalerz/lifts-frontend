@@ -18,6 +18,7 @@ export class CarouselComponent implements OnInit {
       autoplay: false,
       autoplayTimeout: 2000,
       autoplayHoverPause: true,
+      lazyLoad: true,
       animateIn: 'bounceInLeft',
       animateOut: 'bounceOutLeft',
       loop: true,
