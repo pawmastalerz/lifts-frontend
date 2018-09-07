@@ -15,8 +15,8 @@ export class CarouselComponent implements OnInit {
     jQuery('.owl-carousel').owlCarousel({
 
       // ---------------
-      autoplay: false,
-      autoplayTimeout: 2000,
+      autoplay: true,
+      autoplayTimeout: 5000,
       autoplayHoverPause: true,
       lazyLoad: true,
       animateIn: 'bounceInLeft',
