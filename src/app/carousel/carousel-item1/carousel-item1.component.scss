@@ -1,5 +1,6 @@
 .container {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 .description {
   display: flex;
@@ -7,18 +8,22 @@
   flex-direction: column;
   height: 400px;
   padding-left: 30px;
-  padding-right: 30px; }
+  padding-right: 30px;
+}
 
 .description h1 {
   font-size: 3.5vw;
-  font-weight: 800; }
+  font-weight: 800;
+}
 
 .description .lead {
   font-size: 3.5vw;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .description .desc {
   width: 30vw;
   line-height: 200%;
   font-size: .9vw;
-  font-weight: 500; }
+  font-weight: 500;
+}
