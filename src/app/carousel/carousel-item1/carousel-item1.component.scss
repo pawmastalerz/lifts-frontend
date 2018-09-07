@@ -2,6 +2,10 @@
   margin-top: 20px;
 }
 
+.img {
+  max-width: 100%;
+}
+
 .description {
   display: flex;
   justify-content: center;
@@ -37,16 +41,3 @@
   position: relative;
 }
 
-.more-left {
-  position: absolute;
-  top: 50%;
-  left: 5%;
-  transform: translate(0, -50%);
-}
-
-.more-right {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-25%, -50%);
-}
