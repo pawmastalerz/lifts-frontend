@@ -1,57 +1,73 @@
-.container {
+.row {
   margin-top: 20px;
 }
 
-.img {
-  max-width: 100%;
-}
-
-.description {
+.image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 400px;
-  padding-left: 30px;
-  padding-right: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.description {
+  margin: auto;
+  text-align: center;
+  padding: 40px;
 }
 
 .description h1 {
-  font-size: 3.5vw;
+  font-size: 7vw;
   font-weight: 800;
 }
 
 .description .lead {
-  font-size: 3.5vw;
-  font-weight: 500;
+  font-size: 5vw;
 }
 
 .description .desc {
-  width: 30vw;
-  line-height: 200%;
-  font-size: .9vw;
-  font-weight: 500;
-  padding-bottom: 10px;
+  font-size: 3vw;
+  text-align: justify;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-.car-1-button {
-  width: 15vw;
-  height: 3vw;
-  font-size: 1.1vw;
-  border-radius: 0;
-  background: #ED1B23;
+.description .btn-group {
+  width: 50%;
+  font-size: 4vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 576px) {
   .description {
-    margin-top: 10px;
-    text-align: center;
+    text-align: left;
+  }
+  .description h1 {
+    font-size: 3.5vw;
+  }
+  .description .lead {
+    font-size: 3.5vw;
+  }
+  .description .desc {
+    font-size: 0.9vw;
+    padding-left: 0;
+    padding-right: 45%;
+    line-height: 2;
+  }
+  .description .btn-group {
+    width: 20%;
+    font-size: 1vw;
   }
 }
 /*# sourceMappingURL=carousel-item1.component.css.map */

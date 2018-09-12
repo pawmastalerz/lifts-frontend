@@ -23,9 +23,13 @@ export class CarouselComponent implements OnInit {
       loop: true,
       margin: 10,
       nav: true,
+      items: 1,
       responsive: {
         0: {
-          items: 1
+          autoplay: false,
+        },
+        576: {
+          autoplay: true,
         }
       }
       // ---------------
