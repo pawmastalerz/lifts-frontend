@@ -9,6 +9,8 @@ import { HeaderLogoComponent } from './header/header-logo/header-logo.component'
 import { NavbarComponent } from './navbar/navbar.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CarouselItem1Component } from './carousel/carousel-item1/carousel-item1.component';
+import { TilesComponent } from './tiles/tiles.component';
+import { TileComponent } from './tiles/tile/tile.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CarouselItem1Component } from './carousel/carousel-item1/carousel-item1
     HeaderLogoComponent,
     NavbarComponent,
     CarouselComponent,
-    CarouselItem1Component
+    CarouselItem1Component,
+    TilesComponent,
+    TileComponent
   ],
   imports: [
     BrowserModule,
