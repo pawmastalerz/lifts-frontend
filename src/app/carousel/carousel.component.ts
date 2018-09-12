@@ -22,6 +22,7 @@ export class CarouselComponent implements OnInit {
       loop: true,
       margin: 10,
       nav: false,
+      dots: false,
       items: 1,
       responsive: {
         0: {
