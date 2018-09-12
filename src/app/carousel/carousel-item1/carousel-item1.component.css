@@ -1,35 +1,57 @@
 .container {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 .img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 400px;
   padding-left: 30px;
-  padding-right: 30px; }
+  padding-right: 30px;
+}
 
 .description h1 {
   font-size: 3.5vw;
-  font-weight: 800; }
+  font-weight: 800;
+}
 
 .description .lead {
   font-size: 3.5vw;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .description .desc {
   width: 30vw;
   line-height: 200%;
   font-size: .9vw;
   font-weight: 500;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+}
 
 .car-1-button {
   width: 15vw;
   height: 3vw;
   font-size: 1.1vw;
   border-radius: 0;
-  background: #ED1B23; }
+  background: #ED1B23;
+}
+
+@media only screen and (max-width: 600px) {
+  .description {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=carousel-item1.component.css.map */

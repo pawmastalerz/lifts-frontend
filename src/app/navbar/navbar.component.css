@@ -1,19 +1,27 @@
 .navbar {
-  padding: 0; }
+  padding: 0;
+}
 
 .nav-link {
   color: white !important;
-  font-size: .9em; }
+  font-size: .9em;
+}
 
 .navbar-left-1 {
-  background-color: #ED1B23; }
+  background-color: #ED1B23;
+}
 
 .navbar-left-2 {
   background: #ed1b23;
-  background: linear-gradient(90deg, #ed1b23 94%, #da1920 100%); }
+  background: -webkit-gradient(linear, left top, right top, color-stop(94%, #ed1b23), to(#da1920));
+  background: linear-gradient(90deg, #ed1b23 94%, #da1920 100%);
+}
 
 .navbar-right {
-  background-color: #ED1B23; }
+  background-color: #ED1B23;
+}
 
 .fa-facebook-f {
-  color: white; }
+  color: white;
+}
+/*# sourceMappingURL=navbar.component.css.map */

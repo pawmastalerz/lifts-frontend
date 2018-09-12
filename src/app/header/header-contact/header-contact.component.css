@@ -1,34 +1,46 @@
 .header-contact h6 {
   font-weight: 600;
   font-size: 1.2vw;
-  margin: 2px; }
+  margin: 2px;
+}
 
 .header-contact p {
   font-size: 0.9vw;
-  margin: 1px; }
+  margin: 1px;
+}
 
 .header-contact br {
   display: block;
-  margin: 1px 0; }
+  margin: 1px 0;
+}
 
 .media-body {
-  margin-left: 20%; }
+  margin-left: 20%;
+}
 
 .fa-phone,
 .fa-envelope {
   font-size: 2vw;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%); }
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
 
 @media (max-width: 767px) {
   .header-contact h6 {
-    font-size: 3.5vw !important; }
+    font-size: 3.5vw !important;
+  }
   .header-contact p {
-    font-size: 2.0vw !important; }
+    font-size: 2.0vw !important;
+  }
   .fa-phone,
   .fa-envelope,
   .fa-search {
-    font-size: 4vw; }
+    font-size: 4vw;
+  }
   .media-body {
-    margin-left: 1%; } }
+    margin-left: 1%;
+  }
+}
+/*# sourceMappingURL=header-contact.component.css.map */
