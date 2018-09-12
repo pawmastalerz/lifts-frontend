@@ -15,14 +15,13 @@ export class CarouselComponent implements OnInit {
     jQuery('.owl-carousel').owlCarousel({
 
       // ---------------
-      autoplay: true,
       autoplayTimeout: 5000,
       autoplayHoverPause: true,
       animateIn: 'bounceInLeft',
       animateOut: 'bounceOutRight',
       loop: true,
       margin: 10,
-      nav: true,
+      nav: false,
       items: 1,
       responsive: {
         0: {
