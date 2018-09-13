@@ -1,7 +1,47 @@
-.test {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  margin: 0 auto;
-  margin-top: 10px;
+.tile {
+  height: 100%;
+  display: grid;
+}
+
+.tile .img-fluid {
+  max-width: 100px;
+  max-height: 100px;
+  margin: auto;
+}
+
+.tile p {
+  text-align: center;
+  font-weight: 600;
+  height: 50px;
+}
+
+.tile .btn-group {
+  width: 90%;
+  font-size: 1vw;
+  height: 40px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 575px) {
+  .tile p {
+    font-size: 2.8vw;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .tile p {
+    font-size: 1.7vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tile p {
+    font-size: 1.2vw;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .tile p {
+    font-size: .95vw;
+  }
 }
