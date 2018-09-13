@@ -1,0 +1,79 @@
+.spacer {
+  height: 50px;
+}
+
+.desc-mid p {
+  margin-bottom: 20px !important;
+}
+
+.bannerbox {
+  background: url("../../assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.bannerbox h1 {
+  margin: auto;
+  color: white;
+  font-size: 6vw;
+  font-weight: 800;
+}
+
+.bannerbox p {
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+}
+
+@media only screen and (min-width: 576px) {
+  .bannerbox {
+    height: 400px;
+  }
+  h1 {
+    font-size: 4vw !important;
+  }
+  p {
+    font-size: 3vw !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bannerbox {
+    height: 400px;
+  }
+  h1 {
+    font-size: 3vw !important;
+  }
+  p {
+    font-size: 2vw !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .bannerbox {
+    height: 400px;
+  }
+  h1 {
+    font-size: 3vw !important;
+  }
+  p {
+    font-size: 1.5vw !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .bannerbox {
+    height: 400px;
+  }
+  h1 {
+    font-size: 3vw !important;
+  }
+  p {
+    font-size: 1vw !important;
+  }
+}
+/*# sourceMappingURL=banner.component.css.map */
