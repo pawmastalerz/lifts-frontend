@@ -1,0 +1,40 @@
+.row {
+  height: 80px;
+}
+
+p {
+  font-size: 3vw;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+@media only screen and (min-width: 576px) {
+  p {
+    font-size: 2vw;
+  }
+  .ftr1 p {
+    margin-left: 20px;
+  }
+  .ftr2 p {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 1.5vw;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  p {
+    font-size: 1.3vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 1vw;
+  }
+}
+/*# sourceMappingURL=footer.component.css.map */
