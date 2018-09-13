@@ -40,6 +40,7 @@
 
 .description .btn-group {
   width: 50%;
+  background-color: #ED1B23;
   font-size: 4vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -47,6 +48,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 0;
 }
 
 @media only screen and (min-width: 576px) {
@@ -66,8 +68,8 @@
     line-height: 2;
   }
   .description .btn-group {
-    width: 20%;
-    font-size: 1vw;
+    width: 40%;
+    font-size: 1.5vw;
   }
 }
 
@@ -75,6 +77,10 @@
   .description .desc {
     font-size: 1vw;
     padding-right: 45%;
+  }
+  .description .btn-group {
+    width: 27%;
+    font-size: 1.2vw;
   }
 }
 /*# sourceMappingURL=carousel-item1.component.css.map */
