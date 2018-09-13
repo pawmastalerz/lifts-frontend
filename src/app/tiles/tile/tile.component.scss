@@ -11,8 +11,10 @@
 
 .tile p {
   text-align: center;
+  font-size: 2.8vw;
   font-weight: 600;
   height: 50px;
+  margin: auto;
 }
 
 // .tile .btn-group {
@@ -31,12 +33,6 @@
   border-radius: 0;
 }
 
-@media only screen and (max-width: 575px) {
-  .tile p {
-    font-size: 2.8vw;
-  }
-}
-
 @media only screen and (min-width: 576px) {
   .tile p {
     font-size: 1.7vw;
@@ -47,6 +43,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .tile .img-fluid {
+    margin-top: 30px !important;
+  }
+
   .tile p {
     font-size: 1.2vw;
   }
@@ -61,5 +61,12 @@
   }
   .tile .btn-group {
     font-size: .9vw;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .tile p {
+    margin-bottom: 40px !important;
   }
 }
