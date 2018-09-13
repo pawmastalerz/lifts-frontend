@@ -1,3 +1,5 @@
+$theme-colors: ("danger": blue);
+
 .row {
   margin-top: 20px;
 }
@@ -53,14 +55,22 @@
   }
 
   .description .desc {
-    font-size: 0.9vw;
+    font-size: 1.5vw;
     padding-left: 0;
-    padding-right: 45%;
+    padding-right: 5%;
     line-height: 2;
   }
 
   .description .btn-group {
     width: 20%;
     font-size: 1vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .description .desc {
+    font-size: 1vw;
+    padding-right: 45%;
   }
 }

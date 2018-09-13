@@ -29,7 +29,7 @@ export class CarouselComponent implements OnInit {
           autoplay: false,
         },
         576: {
-          autoplay: true,
+          autoplay: false,
         }
       }
       // ---------------
