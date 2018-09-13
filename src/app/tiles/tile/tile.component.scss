@@ -15,11 +15,20 @@
   height: 50px;
 }
 
+// .tile .btn-group {
+//   width: 90%;
+//   font-size: 1vw;
+//   height: 40px;
+//   margin: auto;
+// }
+
 .tile .btn-group {
   width: 90%;
-  font-size: 1vw;
-  height: 40px;
-  margin: auto;
+  background-color: #ED1B23;
+  font-size: 3.5vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
 }
 
 @media only screen and (max-width: 575px) {
@@ -32,16 +41,25 @@
   .tile p {
     font-size: 1.7vw;
   }
+  .tile .btn-group {
+    font-size: 2vw;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .tile p {
     font-size: 1.2vw;
   }
+  .tile .btn-group {
+    font-size: 1vw;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .tile p {
     font-size: .95vw;
+  }
+  .tile .btn-group {
+    font-size: .9vw;
   }
 }
