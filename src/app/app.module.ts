@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -13,6 +14,7 @@ import { TilesComponent } from './tiles/tiles.component';
 import { TileComponent } from './tiles/tile/tile.component';
 import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from './footer/footer.component';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +28,15 @@ import { FooterComponent } from './footer/footer.component';
     TilesComponent,
     TileComponent,
     BannerComponent,
-    FooterComponent
+    FooterComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBRr_9WjuUjD6f_fVXu14-GgFX81gEAzBU'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
