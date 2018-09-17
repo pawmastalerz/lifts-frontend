@@ -1,18 +1,16 @@
 .header-contact h6 {
-  font-size: 3.5vw;
+  font-size: 5vw;
 }
 
 .header-contact p {
-  font-size: 2.0vw;
+  font-size: 4vw;
 }
 
 .fa-phone,
 .fa-envelope,
 .fa-search {
-  font-size: 4vw;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-top: 50%;
+  font-size: 6vw;
+  margin: 10px auto;
 }
 
 .media-body {
@@ -20,11 +18,29 @@
 }
 
 .media-body p {
-  line-height: .7;
+  line-height: 0.7;
 }
 
+@media (min-width: 576px) {
+  .header-contact h6 {
+    font-size: 3.5vw;
+  }
 
-@media(min-width:768px) {
+  .header-contact p {
+    font-size: 2vw;
+  }
+
+  .fa-phone,
+  .fa-envelope,
+  .fa-search {
+    font-size: 4vw;
+    margin-top: 50%;
+    font-size: 4vw;
+  }
+
+}
+
+@media (min-width: 768px) {
   .header-contact h6 {
     font-weight: 600;
     font-size: 1.2vw;
@@ -39,8 +55,7 @@
 
   .fa-phone,
   .fa-envelope,
-  .fa-search
-    {
+  .fa-search {
     font-size: 2vw;
   }
 
